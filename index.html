@@ -9,80 +9,78 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-
     <title>Michael Rodriguez</title>
 </head>
 
 
 <body>
-    <div class="container-md">
-<!-- For some reason the responsive button on this navbar would not drop down for me in my browser. I tested it with noth the boostrap page (it works there) and regular code (no modifications) but still no luck on my page. Good news is the button appears when it is supposed to when you shrink the page, so that is a plus.   -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-            <a class="navbar-brand" href="index.html">Michael Rodriguez</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ml-auto">
+    <!-- For some reason the responsive button on this navbar would not drop down for me in my browser. I tested it with noth the boostrap page (it works there) and regular code (no modifications) but still no luck on my page. Good news is the button appears when it is supposed to when you shrink the page, so that is a plus.   -->
+    <!-- Later I realize that the navbar is within the containter to keep the size of the main content. I was being dumb and included the header and footer thinking that the instructions called for that. So now the header and footer are out of the container -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <a class="navbar-brand" href="index.html">Mike Rodriguez</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
                 <a class="nav-item nav-link" href="contact.html">Contact</a>
-              </div>
-            </div>
-          </nav>
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>About Me</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="assets/images/me.jpeg" class="img-responsive" width="100%" />
-                </div>
-                <div class="col-md-8">
-                    <p>As you can see my name is Michael Rodriguez. One of the few crazy Colorado natives that still
-                        live here. I recently took a trip to Japan! It was my first time out of the country! Now I want
-                        to travel more and also go back to Japan to explore what I missed.</p>
-                    <p>The picture I have here is from my solo trip to Disney Sea in Tokyo, Japan. I didn't know anyone
-                        there and did not speak the local language very well but it was such a blast. Everyone was so
-                        friendly, the park was very clean and the entire experience was just amazing. I stayed the
-                        entire day there and can't wait to go back.</p>
-                    <p>This year I am already set to head out to Spain and Portugal on a 13 day trip in August. There
-                        will be a few friends I meet on the Japan trip going so it should be just as awesome. It really
-                        is amazing to just get out and explore.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>I have been working in the Information Technology field for 12 years now and currently working as
-                        a
-                        Level III Deskside Technician. With this course I hope to change direction from working with
-                        hardware to working with coding and software.</p>
-                </div>
-                <div class="col-md-12">
-                    <h3>Fun Facts:</h3>
-                    <ul>
-                        <li>I like to go fishing in the Mountains for Trout. I even learned to tie my own flies and
-                            catch a bunch of fish with them every year!</li>
-                        <li>I enjoy cooking for my family, especially on special occastions. Green chile,
-                            fried tacos and sushi are a few specialties.</li>
-                        <li>Growing up, when asked what I wanted to be, my answer was and still is "A Wizard!"</li>
-
-                    </ul>
-
-                </div>
             </div>
         </div>
-                <!-- Just adding some fun to the footer -->
-        <footer class="footer mt-auto py-3 bg-info">
-            <div class="container">
-              <span class="text-white">IS THIS FOOTER STICKY ENOUGH?</span>
+    </nav>
+
+    <div class="container-md mt-auto mb-auto">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>About Me</h1>
             </div>
-          </footer>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/images/me.jpeg" class="img-responsive" width="100%" />
+            </div>
+            <div class="col-md-8">
+                <p>As you can see my name is Michael Rodriguez. One of the few crazy Colorado natives that still
+                    live here. I recently took a trip to Japan! It was my first time out of the country! Now I want
+                    to travel more and also go back to Japan to explore what I missed.</p>
+                <p>The picture I have here is from my solo trip to Disney Sea in Tokyo, Japan. I didn't know anyone
+                    there and did not speak the local language very well but it was such a blast. Everyone was so
+                    friendly, the park was very clean and the entire experience was just amazing. I stayed the
+                    entire day there and can't wait to go back.</p>
+                <p>This year I am already set to head out to Spain and Portugal on a 13 day trip in August. There
+                    will be a few friends I meet on the Japan trip going so it should be just as awesome. It really
+                    is amazing to just get out and explore.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>I have been working in the Information Technology field for 12 years now and currently working as
+                    a
+                    Level III Deskside Technician. With this course I hope to change direction from working with
+                    hardware to working with coding and software.</p>
+            </div>
+            <div class="col-md-12">
+                <h3>Fun Facts:</h3>
+                <ul>
+                    <li>I like to go fishing in the Mountains for Trout. I even learned to tie my own flies and
+                        catch a bunch of fish with them every year!</li>
+                    <li>I enjoy cooking for my family, especially on special occastions. Green chile,
+                        fried tacos and sushi are a few specialties.</li>
+                    <li>Growing up, when asked what I wanted to be, my answer was and still is "A Wizard!"</li>
+
+                </ul>
+
+            </div>
+        </div>
     </div>
+    <!-- Just adding some fun to the footer -->
+    <footer class="footer mt-auto py-3 bg-info">
+        <div class="container">
+            <span class="text-white">IS THIS FOOTER STICKY ENOUGH?</span>
+        </div>
+    </footer>
 </body>
 
 </html>
